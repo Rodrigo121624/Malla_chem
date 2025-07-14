@@ -2,27 +2,56 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Malla Curricular Química</title>
+  <title>Malla Curricular IQ UTEC</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; }
-    .curso {
-      border: 2px solid #333;
+    body {
+      font-family: Arial, sans-serif;
+      background: #EEEFE0;
       padding: 20px;
-      margin: 10px;
-      display: inline-block;
+    }
+    h1 {
+      text-align: center;
+    }
+    .nivel {
+      margin: 20px 0;
+      padding: 15px;
       border-radius: 8px;
     }
-    .curso:hover {
-      background-color: #f0f0f0;
-      cursor: pointer;
+    .curso {
+      display: inline-block;
+      background: white;
+      border: 2px solid #333;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 6px;
+      width: 180px;
     }
+    .nivel1 { background: #819A91; }
+    .nivel2 { background: #A7C1A8; }
+    .nivel3 { background: #D1D8BE; }
+    .nivel4 { background: #EEEFE0; }
   </style>
 </head>
 <body>
-  <h1>Malla Curricular Química</h1>
-  <div class="curso">Matemática I</div>
-  <div class="curso">Química General</div>
-  <div class="curso">Física Básica</div>
-  <!-- Puedes seguir agregando más cursos aquí -->
+  <h1>Malla Curricular Ingeniería Química UTEC</h1>
+
+  <div class="nivel nivel1">
+    <h2>Nivel 1</h2>
+    <div class="curso">Cálculo de una variable<br>4 créditos</div>
+    <div class="curso">Química General<br>3 créditos</div>
+    <div class="curso">Programación I<br>4 créditos</div>
+    <!-- Agrega más cursos de nivel 1 -->
+  </div>
+
+  <div class="nivel nivel2">
+    <h2>Nivel 2</h2>
+    <div class="curso">Álgebra Lineal<br>2 créditos</div>
+    <div class="curso">Cálculo Vectorial<br>3 créditos</div>
+    <div class="curso">Introducción a la Mecánica<br>4 créditos</div>
+    <!-- Agrega más cursos de nivel 2 -->
+  </div>
+
+  <!-- Sigue igual para nivel 3, 4, ... -->
 </body>
 </html>
+
